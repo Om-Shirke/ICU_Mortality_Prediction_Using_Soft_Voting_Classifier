@@ -60,4 +60,27 @@ This project focuses on developing an ICU Mortality Prediction System for patien
 - **Potential for Real-World ICU Deployment:**  
   The model’s high recall ensures that almost all mortality cases are identified in advance, allowing hospitals to allocate resources effectively and intervene earlier. While prioritizing recall, the model also maintains practical utility by balancing other performance metrics, making it suitable for clinical integration.  
 
+## 🛠 How to Run
+**Clone the repository:**
+   ```bash
+   git clone <https://github.com/Om-Shirke/ICU_Mortality_Prediction_Using_Soft_Voting_Classifier.git>
+```
+## 📈 Future Improvements  
 
+- Perform advanced hyperparameter tuning and cross-validation to further optimize recall.  
+- Validate the model across different ICU environments for better generalizability.  
+- Integrate the model with Clinical Decision Support Systems (CDSS) for real-time ICU deployment.  
+## 📂 Project Structure  
+
+| File Name                                              | Description |
+|--------------------------------------------------------|-------------|
+| `Benchmark models comparison and Scaling and Balancing.ipynb` | Notebook showcasing benchmark model comparisons, feature scaling, and class balancing techniques. |
+| `Complete pre-processing , EDA and Feature Selection (3).ipynb` | Notebook covering full data preprocessing, exploratory data analysis (EDA), and feature selection steps. |
+| `Experimentation and Final Model.ipynb`                | Notebook detailing the process of model experimentation, tuning, and final model selection. |
+| `Om's Final Thesis Defense.pptx`                       | Presentation slides from the final thesis defense. |
+| `data01.csv`                                           | Curated dataset (Heart Failure Patients) derived from the MIMIC-III database. |
+| `README.md`                                            | Project documentation and guidelines. |
+
+## 📢 Credits & References
+
+- **Project by:** Om Shirke
